@@ -35,9 +35,6 @@ public class Constant {
         public static final String WIDE_SCORE = "Wide ball! Score: ";
         public static final String NOBALL_SCORE = "No ball! Score: ";
         public static final String WICKET_REMAIN = " Team wins! with remaining wicket of ";
-
-
-
 }
 
 
