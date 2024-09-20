@@ -119,7 +119,6 @@ public class Methods {
         }
         return score;
     }
-
     /***
      * Method to validate player selection from the team's 11 players
      * input - array of String - teamPlayers, outBatsmen
@@ -151,7 +150,6 @@ public class Methods {
         }
         return selectedPlayer;
     }
-
     /***
      *  Method to get the index of a player in the team array
      *  input - array of String - teamPlayers
