@@ -3,7 +3,6 @@
  * Name - Jayant Singh
  * Date - 19/19/24
  */
-
 import java.util.Scanner;
 public class Methods {
     /***
