@@ -151,7 +151,17 @@ public class Main {
         System.out.println(Constant.ENTER_OVER);
         int overs = 2;
         try{
-             overs = scanner.nextInt();
+            boolean checkOn = true;
+            while (checkOn){
+                System.out.println(Constant.ENTER_OVER);
+                overs = scanner.nextInt();
+                if(overs<0){
+                    System.out.println(Constant.INVALID_INPUT);
+                }
+                else {
+                    checkOn = false;
+                }
+            }
         }
         catch (Exception e){
             System.out.println(Constant.EXCEPTION_INPUT);
